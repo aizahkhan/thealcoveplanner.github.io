@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .live-website {
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0px;
+  } 
+
+  /* Header Styles */
+  .normal-header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    padding: 15px 0px 15px 0px;
+  }
+  
+  .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .logo img {
+    max-width: 100px;
+    margin-left: 10px;
+  }
+  
+  .company-name h1 {
+    font-family: 'Angela Brown', sans-serif;
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+  }
+  
+  nav a {
+    font-family: 'Blogger Sans', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding-right: 10px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Featured Product Section Styles */
+  .featured-product {
+    background-color: #f4f4f4;
+    padding: 40px 0px;
+    width: 100%;
+    display: flex;
+  }
+  
+  .product-container {
+    margin-top: 100px;
+    width: 100%;
+  }
+  
+  .product-container img {
+    max-width: 500px;
+    margin-right: 20px;
+  }
+  
+  .product-container {
+    text-align: left;
+  }
+  
+  .product-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  
+  .product-container p {
+    font-size: 16px;
+    margin-bottom: 20px;  
+  }
+  
+  .product-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .product-container button:hover {
+    background-color: #555;
+  }
+  
+  /* ... (other styles for the page) */
